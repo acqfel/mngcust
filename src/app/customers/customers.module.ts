@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CustomersComponent } from './customers.component';
 import { ListCustomersComponent } from './list-customers/list-customers.component';
+import { InputFilterComponent } from './list-customers/input-filter/input-filter.component';
 
 @NgModule({
   imports: [
@@ -9,7 +10,8 @@ import { ListCustomersComponent } from './list-customers/list-customers.componen
   ],
   declarations: [
     CustomersComponent,
-    ListCustomersComponent
+    ListCustomersComponent,
+    InputFilterComponent
   ],
   exports: [ CustomersComponent ]
 })
