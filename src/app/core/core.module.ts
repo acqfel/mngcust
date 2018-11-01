@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 
 import { DataService } from './data.service';
-//import { SorterService } from './sorter.service';
+import { SorterService } from './sorter.service';
 
 
 @NgModule({
@@ -13,6 +13,6 @@ import { DataService } from './data.service';
     HttpClientModule
   ],
   declarations: [],
-  providers: [ DataService ]
+  providers: [ DataService, SorterService ]
 })
 export class CoreModule { }
